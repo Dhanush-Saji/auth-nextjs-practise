@@ -5,6 +5,7 @@ import axios from "axios"
 import Link from "next/link"
 
 const Signup = () => {
+  const router = useRouter()
   const [user, setuser] = useState({
     email:'',
     password:'',
