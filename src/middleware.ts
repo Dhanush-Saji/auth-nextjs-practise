@@ -16,7 +16,9 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(new URL('/login',request.nextUrl))
   }
 }
- 
+
+ //This is also a way of writing the config
+
 // export const config = {
 //   matcher: '/about/:path*',
 // }
